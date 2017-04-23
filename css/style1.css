@@ -1,0 +1,57 @@
+.box{
+    width: 250px;
+    height: 250px;
+    background: #5294ff;
+    border: 1px solid #3d6fc1;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/1.jpg");  
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 25px) 50%; /*calc(100hh - 25px);*/
+    box-shadow: 1px 1px 5px 5px #000;
+}
+
+.page{
+    height: calc(100vh - 16px);
+    background: #a89af8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glitch_1 {
+  font-size: 58px;
+  font-family: "Arial";
+  color: rgb(53, 53, 53);
+  line-height: 1.2;
+  text-shadow: 1px 2px 0px rgba(255, 0, 246, 1), -1px -1px 0px rgba(0, 252, 255, 1);
+/*    text-shadow: 0px 2px 0px rgba(255, 0, 246, 0.004),-1.364px -1.463px 0px rgba(0, 252, 255, 0.004);*/
+  position: relative;
+  left: 50px;
+  top: 0px;
+  z-index: 2;
+}
+
+.triangular_4{
+  border-width: 1px;
+  border-color: rgb(194, 194, 194);
+  border-style: solid;
+  background-color: rgb(0, 128, 160);
+  box-shadow: 0px 22px 24px 0px rgba(255, 0, 0, 0.26), -27px -1px 32px 0px rgba(0, 179, 186, 0.47), 26px 7px 32px 0px rgba(255, 150, 0, 0.47);
+/*      0px 22px 24px 0px rgba(255, 0, 0, 0.26),-26.963px -1.413px 32px 0px rgba(0, 179, 186, 0.47),26.198px 6.532px 32px 0px rgba(255, 150, 0, 0.47);*/
+  position: relative;
+  left: 50px;
+  top: 0px;
+  width: 533px;
+  height: 127px;
+  z-index: 14;
+}
+
+
+.page + .page{
+    background: #553beb;
+}
