@@ -1,44 +1,148 @@
-.box{
-    width: 250px;
-    height: 250px;
-    background: #5294ff;
-    border: 1px solid #3d6fc1;
-    color: #fff;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../images/1.jpg");  
-    background-size: 100px;
-    background-repeat: no-repeat;
-    background-position: calc(100% - 25px) 50%; /*calc(100hh - 25px);*/
-    box-shadow: 1px 1px 5px 5px #000;
+.glitch_1 {
+    font-size: 58px;
+    font-family: "Arial";
+    color: rgb(53, 53, 53);
+    line-height: 1.2;
+    text-shadow: 1px 2px 0px rgba(255, 0, 246, 1), -1px -1px 0px rgba(0, 252, 255, 1);
+    margin-left: 50px;    
 }
 
-.page{
-    height: calc(100vh - 16px);
-    background: #a89af8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.button{
+    font-size: 26px;
+    font-family: "Arial";
+    color: #fff;
+    text-shadow: 1px 2px 0px rgba(231, 0, 0, 1);
+    border: 1px solid rgb(173, 0, 0);
+    border-radius: 10px;
+    background-color: #ff3b3b;
+    box-shadow: 0px 13px 18px 0px rgba(0, 0, 0, 0.26);
+    margin-left: 50px;
+    width: 233px;
+    height: 46px;
+}
+
+.button:hover{
+    box-shadow: inset 0px 13px 18px 0px rgba(0, 0, 0, 0.26);
+}
+
+.triangular_3 {
+    border: 1px solid rgb(194, 194, 194);
+    background-image: -moz-linear-gradient( -47deg, rgb(185,35,96) 0%, rgb(109,80,179) 51%, rgb(109,181,234) 100%);
+    background-image: -webkit-linear-gradient( -47deg, rgb(185,35,96) 0%, rgb(109,80,179) 51%, rgb(109,181,234) 100%);
+    background-image: -ms-linear-gradient( -47deg, rgb(185,35,96) 0%, rgb(109,80,179) 51%, rgb(109,181,234) 100%);
+    margin-left: 50px;
+    width: 254px;
+    height: 208px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b92360+0,7e3e9c+39,6d6ac5+67,6db5ea+100 */
+    background: #b92360; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #b92360 0%, #7e3e9c 39%, #6d6ac5 67%, #6db5ea 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #b92360 0%,#7e3e9c 39%,#6d6ac5 67%,#6db5ea 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #b92360 0%,#7e3e9c 39%,#6d6ac5 67%,#6db5ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b92360', endColorstr='#6db5ea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+}
+
+
+.elips{
+    border-width: 1px soild rgb(194, 194, 194);
+    border-radius: 50%;
+    background-image: -moz-linear-gradient( -45deg, rgb(41,10,89) 22%, rgb(255,124,0) 22%, rgb(255,124,0) 50%, rgb(41,10,89) 50%, rgb(41,10,89) 78%, rgb(255,124,0) 78%);
+    background-image: -webkit-linear-gradient( -45deg, rgb(41,10,89) 22%, rgb(255,124,0) 22%, rgb(255,124,0) 50%, rgb(41,10,89) 50%, rgb(41,10,89) 78%, rgb(255,124,0) 78%);
+    background-image: -ms-linear-gradient( -45deg, rgb(41,10,89) 22%, rgb(255,124,0) 22%, rgb(255,124,0) 50%, rgb(41,10,89) 50%, rgb(41,10,89) 78%, rgb(255,124,0) 78%);
+    margin-left: 50px;
+    margin-top: 20px;      
+    width: 216px;
+    height: 216px;
 }
 
 .triangular_4{
-  border-width: 1px;
-  border-color: rgb(194, 194, 194);
-  border-style: solid;
-  background-color: rgb(0, 128, 160);
-  box-shadow: 0px 22px 24px 0px rgba(255, 0, 0, 0.26), -27px -1px 32px 0px rgba(0, 179, 186, 0.47), 26px 7px 32px 0px rgba(255, 150, 0, 0.47);
-/*      0px 22px 24px 0px rgba(255, 0, 0, 0.26),-26.963px -1.413px 32px 0px rgba(0, 179, 186, 0.47),26.198px 6.532px 32px 0px rgba(255, 150, 0, 0.47);*/
-  position: absolute;
-  left: 50px;
-  top: 50px;
-  width: 533px;
-  height: 127px;
-  z-index: 14;
+    border-width: 1px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    background-color: rgb(0, 128, 160);
+    box-shadow: 0px 22px 24px 0px rgba(255, 0, 0, 0.26), -27px -1px 32px 0px rgba(0, 179, 186, 0.47), 26px 7px 32px 0px rgba(255, 150, 0, 0.47);
+    /*      0px 22px 24px 0px rgba(255, 0, 0, 0.26),-26.963px -1.413px 32px 0px rgba(0, 179, 186, 0.47),26.198px 6.532px 32px 0px rgba(255, 150, 0, 0.47);*/
+    margin-left: 50px;
+    width: 533px;
+    height: 127px;
 }
 
+.num-design{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: num;
+}
 
-.page + .page{
-    background: #553beb;
+.num-design li{
+    counter-increment: num;
+    padding-left: 30px;   
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.num-design li:before{
+    content: counter(num);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #08a3cc;
+    font-size: 17px;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.li-count{
+    list-style: none;
+    margin: 0;
+    margin-left: 50px; 
+    padding: 0;
+    counter-reset: count;    
+    display: table;
+}
+
+.li-count li{
+    counter-increment: count;    
+    display: grid;
+    font-size: 17px;
+    font-family: "Arial";
+    color: #353353;
+    box-shadow: 5px 6px 0px 0px rgba(0, 0, 0, 0.26);    
+    box-sizing: border-box;
+    width: 708px;
+    height: 108px;
+    border: 1px solid #c2c2c2;
+    text-align: left;
+    padding: 10px 30px 20px 145px;
+    margin-bottom: 20px;
+    background: #fbfbfb;
+    background: -webkit-linear-gradient(left, #fbfbfb 44%, #efeaea 50%, #fbfbfb 56%);
+    background: -o-linear-gradient(left, #fbfbfb 44%, #efeaea 50%, #fbfbfb 56%);
+    background: linear-gradient(to right, #fbfbfb 44%, #efeaea 50%, #fbfbfb 56%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#fbfbfb',GradientType=1 );    
+}
+
+.li-count li:before{
+    content: '0'counter(count);
+    position: relative;
+    left: -145px;
+    top: -11px;
+    box-sizing: border-box;   
+    background: red;
+    font-size: 75px;
+    font-family: "Georgia";    
+    color: #fff;
+    width: 125px;
+    height: 108px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid #c2c2c2;
+    text-indent: -4%;
+    display: grid;
+    text-align: center;
 }
