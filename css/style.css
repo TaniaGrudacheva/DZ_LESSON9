@@ -107,6 +107,9 @@
 .li-count li{
     counter-increment: count;    
     display: grid;
+    position: relative;
+    top: 0;
+    left: 0;
     font-size: 17px;
     font-family: "Arial";
     color: #353353;
@@ -116,7 +119,7 @@
     height: 108px;
     border: 1px solid #c2c2c2;
     text-align: left;
-    padding: 10px 30px 20px 145px;
+    padding: 20px 30px 20px 145px;
     margin-bottom: 20px;
     background: #fbfbfb;
     background: -webkit-linear-gradient(left, #fbfbfb 44%, #efeaea 50%, #fbfbfb 56%);
@@ -127,9 +130,9 @@
 
 .li-count li:before{
     content: '0'counter(count);
-    position: relative;
-    left: -145px;
-    top: -11px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
     box-sizing: border-box;   
     background: red;
     font-size: 75px;
@@ -145,4 +148,147 @@
     text-indent: -4%;
     display: grid;
     text-align: center;
+}
+
+.li-count li:nth-child(1):before{
+    background: #ff1717;
+    background: -moz-linear-gradient(-45deg, #ff1717 0%, #e31010 48%, #b00404 100%, #7db9e8 100%, #b00404 100%, #207cca 100%);
+    background: -webkit-linear-gradient(-45deg, #ff1717 0%,#e31010 48%,#b00404 100%,#7db9e8 100%,#b00404 100%,#207cca 100%);
+    background: linear-gradient(135deg, #ff1717 0%,#e31010 48%,#b00404 100%,#7db9e8 100%,#b00404 100%,#207cca 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1717', endColorstr='#207cca',GradientType=1 );
+}
+
+.li-count li:nth-child(2):before{
+    background: #ffaa17;
+    background: -moz-linear-gradient(-45deg, #ffaa17 0%, #e89411 39%, #d27f0c 51%, #b15d04 98%, #b15d04 100%, #b00404 100%, #7db9e8 100%, #b00404 100%, #b15d04 100%);
+    background: -webkit-linear-gradient(-45deg, #ffaa17 0%,#e89411 39%,#d27f0c 51%,#b15d04 98%,#b15d04 100%,#b00404 100%,#7db9e8 100%,#b00404 100%,#b15d04 100%);
+    background: linear-gradient(135deg, #ffaa17 0%,#e89411 39%,#d27f0c 51%,#b15d04 98%,#b15d04 100%,#b00404 100%,#7db9e8 100%,#b00404 100%,#b15d04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaa17', endColorstr='#b15d04',GradientType=1 );    
+}
+
+.li-count li:nth-child(3):before{
+    background: #17ff79;
+    background: -moz-linear-gradient(-45deg, #17ff79 0%, #21e856 39%, #2bd034 51%, #38b105 100%, #b00404 100%, #7db9e8 100%, #b00404 100%, #b15d04 100%, #b15d04 100%);
+    background: -webkit-linear-gradient(-45deg, #17ff79 0%,#21e856 39%,#2bd034 51%,#38b105 100%,#b00404 100%,#7db9e8 100%,#b00404 100%,#b15d04 100%,#b15d04 100%);
+    background: linear-gradient(135deg, #17ff79 0%,#21e856 39%,#2bd034 51%,#38b105 100%,#b00404 100%,#7db9e8 100%,#b00404 100%,#b15d04 100%,#b15d04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17ff79', endColorstr='#b15d04',GradientType=1 );    
+}
+    
+.li-count li:nth-child(4):before{
+    background: #d517ff;
+    background: -moz-linear-gradient(-45deg, #d517ff 0%, #bb12ea 39%, #940acb 51%, #7304b2 100%, #b00404 100%, #7db9e8 100%, #b00404 100%, #b15d04 100%, #b15d04 100%);
+    background: -webkit-linear-gradient(-45deg, #d517ff 0%,#bb12ea 39%,#940acb 51%,#7304b2 100%,#b00404 100%,#7db9e8 100%,#b00404 100%,#b15d04 100%,#b15d04 100%);
+    background: linear-gradient(135deg, #d517ff 0%,#bb12ea 39%,#940acb 51%,#7304b2 100%,#b00404 100%,#7db9e8 100%,#b00404 100%,#b15d04 100%,#b15d04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d517ff', endColorstr='#b15d04',GradientType=1 );    
+}
+
+.labellid{
+    padding-top: 65px;
+}
+
+.box61lid{
+    position: relative;
+    left: 350px;
+    width: 250px;
+    height: 250px;
+    float: left;
+    color: #fff;
+    background: #5294ff;
+    border: 1px solid #3d6fc1;
+    box-shadow: 0px 13px 18px 0px rgba(0, 0, 0, 0.26); 
+    text-align: center;
+    text-shadow: 1px 2px 0px rgb(90, 35, 88);   
+    font-size: 25px;    
+    z-index: 1;
+}
+
+.box61lid:hover{
+    background: rebeccapurple;
+    color: yellow;
+    font-size: 32px;
+    transform-origin: 0% 100%;
+    transform: rotate(-90deg);    
+    transition: all 3s ease 0.25s; 
+/*    transition: background 3s linear 0.25s, color 5s linear 0.25s, font-size 7s ease 0.25s;*/
+}
+
+.box61main{
+    position: relative;
+    left: 98px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    text-shadow: 1px 2px 0px rgb(90, 35, 88);   
+    font-size: 24px;    
+    overflow: hidden;
+    box-sizing:: border-box;
+    text-shadow: 1px 2px 0px rgb(90, 35, 88);   
+    color: #fff;
+    background: #5294ff;
+    border: 1px solid #3d6fc1;
+    box-shadow: 0px 13px 18px 0px rgba(0, 0, 0, 0.26); 
+    z-index: 0;
+    transition: background 7s linear 0.25s, color 5s linear 0.25s, font-size 7s linear;
+}
+
+.box61main:before{
+    color: #000;
+    background: aqua;/* : rgba(185, 35, 96, 0.62);*/
+    font-size: 12px;
+}
+
+.labellid{
+    padding-top: 65px;
+}
+
+.box62lid{
+    position: relative;
+    float: left;
+    left: 350px;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    color: #fff;
+    background: #5294ff;
+    border: 1px solid #3d6fc1;
+    box-shadow: 0px 13px 18px 0px rgba(0, 0, 0, 0.26); 
+    text-align: center;
+    text-shadow: 1px 2px 0px rgb(90, 35, 88);   
+    font-size: 25px;    
+    z-index: 1;
+}
+
+.box62lid:hover{
+    background: rebeccapurple;
+    color: yellow;
+    font-size: 32px;
+    transform-origin: 0% 100%;
+    transform: translateX(252px);    
+    transition: all 3s ease 0.25s; 
+/*    transition: background 3s linear 0.25s, color 5s linear 0.25s, font-size 7s ease 0.25s;*/
+}
+
+.box62main{
+    position: relative;
+    left: 98px;
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 1px 2px 0px rgb(90, 35, 88);   
+    font-size: 24px;    
+    overflow: hidden;
+    text-shadow: 1px 2px 0px rgb(90, 35, 88);   
+    color: #fff;
+    background: #5294ff;
+    border: 1px solid #3d6fc1;
+    box-shadow: 0px 13px 18px 0px rgba(0, 0, 0, 0.26); 
+    z-index: 0;
+    transition: background 7s linear 0.25s, color 5s linear 0.25s, font-size 7s linear;
+}
+
+.box62main:before{
+    color: #000;
+    background: aqua;/* : rgba(185, 35, 96, 0.62);*/
+    font-size: 12px;
 }

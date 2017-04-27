@@ -1,3 +1,7 @@
+.perspective{
+    perspective:1500px;
+}
+
 .box{
     width: 250px;
     height: 250px;
@@ -12,7 +16,22 @@
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: calc(100% - 25px) 50%; /*calc(100hh - 25px);*/
-    box-shadow: 1px 1px 5px 5px #000;
+/*    box-shadow: 1px 1px 5px 5px #000;*/
+/*    transform: rotateX(30deg);    */
+/*    transform: rotate(10deg) translateX(-250px) skewX(7deg);
+    transform-origin: 100% 100%;*/
+/*    transition: 3s linear 0.25s;   */
+    transition: background 3s linear 0.25s, 
+                color 5s ease 0.25s,
+                font-size 7s ease 0.25s; 
+}
+
+.box:hover{
+    transform: rotateY(30deg);
+    background: rebeccapurple;
+    color: yellow;
+    transform-origin: 100% 100%;
+    font-size: 36px;
 }
 
 .page{
