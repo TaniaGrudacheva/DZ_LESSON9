@@ -158,12 +158,32 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1717', endColorstr='#207cca',GradientType=1 );
 }
 
+.li-count li:nth-child(1):after{
+    content: 'Новинка';
+    color: crimson;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 42px;
+    left: -52px;
+}
+
 .li-count li:nth-child(2):before{
     background: #ffaa17;
     background: -moz-linear-gradient(-45deg, #ffaa17 0%, #e89411 39%, #d27f0c 51%, #b15d04 98%, #b15d04 100%, #b00404 100%, #7db9e8 100%, #b00404 100%, #b15d04 100%);
     background: -webkit-linear-gradient(-45deg, #ffaa17 0%,#e89411 39%,#d27f0c 51%,#b15d04 98%,#b15d04 100%,#b00404 100%,#7db9e8 100%,#b00404 100%,#b15d04 100%);
     background: linear-gradient(135deg, #ffaa17 0%,#e89411 39%,#d27f0c 51%,#b15d04 98%,#b15d04 100%,#b00404 100%,#7db9e8 100%,#b00404 100%,#b15d04 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaa17', endColorstr='#b15d04',GradientType=1 );    
+}
+
+.li-count li:nth-child(2):after{
+    content: 'Новинка';
+    color: crimson;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 42px;
+    left: -52px;
 }
 
 .li-count li:nth-child(3):before{
